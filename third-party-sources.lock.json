@@ -1,0 +1,37 @@
+[
+  {
+    "file": "libadb-android-3.1.1.zip",
+    "url": "https://codeload.github.com/MuntashirAkon/libadb-android/zip/c849886ebc6d48e7b46d967e78a6bb65c90c3b74",
+    "sha256": "236fe2cc16577a0dceccf594ed6f3ada7d09f84d203f95210321932fbbf69abe"
+  },
+  {
+    "file": "spake2-java-2.2.1.zip",
+    "url": "https://codeload.github.com/MuntashirAkon/spake2-java/zip/7615ddd680b990e14513ebb66eac4cb0dbf82464",
+    "sha256": "7c8cf3220d9b528a21093b4cc78bd2b4616fba3c3209877d7194aa9e6c149434"
+  },
+  {
+    "file": "spake2-c-0d15933.zip",
+    "url": "https://codeload.github.com/MuntashirAkon/spake2-c/zip/0d15933e5ba3e662cb01245a7ac0dc9fca3eac31",
+    "sha256": "0f1ae5da428e4f8ddea49e0e33dcfe07d2ac2114443793b8508bdc4dd48e1eec"
+  },
+  {
+    "file": "sun-security-android-1.1.zip",
+    "url": "https://codeload.github.com/MuntashirAkon/sun-security-android/zip/c933659431310bf19a6f5e3166bf7a271d280d3a",
+    "sha256": "7b2ef2239eb96e61702e792c879f3728a7f02b490e82d00e043c71a706d9ac0a"
+  },
+  {
+    "file": "bcprov-1.81-sources.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15to18/1.81/bcprov-jdk15to18-1.81-sources.jar",
+    "sha256": "25186d46ccca1c3782b5585c39f222ba1766b738e1f2731b213bdeaaad343ac0"
+  },
+  {
+    "file": "conscrypt-2.5.3-sources.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-android/2.5.3/conscrypt-android-2.5.3-sources.jar",
+    "sha256": "45333bd827dd4cf734f174403e0c590f9479ecb5eb6c2be8c28f2b3e20d48c84"
+  },
+  {
+    "file": "annotation-1.9.1-sources.jar",
+    "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.9.1/annotation-jvm-1.9.1-sources.jar",
+    "sha256": "c6ae897fbfb73ca09d4ae31a24bfff85c652097ad10644cdbb738488728cb39b"
+  }
+]

@@ -1,0 +1,13 @@
+app/build/
+app/deps/
+*.apk
+*.aab
+*.jks
+*.keystore
+*.der
+*.key
+local.properties
+__pycache__/
+.idea/
+.vscode/
+.DS_Store

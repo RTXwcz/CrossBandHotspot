@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.rtxwcz.crossband" android:versionCode="3" android:versionName="1.1.1">
+    <uses-sdk android:minSdkVersion="36" android:targetSdkVersion="36" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <permission android:name="com.rtxwcz.crossband.CONTROL" android:protectionLevel="signature" />
+    <uses-permission android:name="com.rtxwcz.crossband.CONTROL" />
+    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" android:usesPermissionFlags="neverForLocation" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+    <application android:label="跨频热点" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="false" android:icon="@android:drawable/ic_menu_share" android:debuggable="false">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PairingActivity" android:exported="true" android:resizeableActivity="true" />
+        <service android:name=".HotspotService" android:exported="false" android:foregroundServiceType="connectedDevice" />
+        <service android:name=".PairingService" android:exported="false" android:foregroundServiceType="connectedDevice" />
+    </application>
+</manifest>
